@@ -2,8 +2,7 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         System.out.println("Hello, World!");
-        Cliente cliente = new Cliente();
-        cliente.setNome("Kaio");
+        Cliente cliente = new Cliente("kaio","Trav Idolo","teste@teste.com",99995555);
 
         Conta cc = new ContaCorrente(cliente);
         cc.depositar(100);
